@@ -10,15 +10,10 @@
 </head>
 <body>
 <h1> The Pokemons </h1>
-        
-        
-        <ul class="pokemons">
-     <%for(let i =0; i < pokemon.length;i++){ %>
-           <li> 
-        <%= pokemon[i].name %> <br>
-        <img src="<%= pokemon[i].img %>">
-           </li>
-     <%}%>
-        </ul>
+<p class='show'>
+       This pokemons name is <strong><%= pokemon.name%> </strong><br>
+       He looks like this: 
+       <img src="<%= pokemon.img %>">
+</p>
 </body>
 </html>
