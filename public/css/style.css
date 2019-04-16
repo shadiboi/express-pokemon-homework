@@ -12,6 +12,12 @@ h1 {
 a {
     text-decoration: non
 }
+p {
+    color: blue;
+    font-family: 'Dokdo', cursive;
+    font-size: 30px;
+    margin-top:-30px; 
+}
 
 
 

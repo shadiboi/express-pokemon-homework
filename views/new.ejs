@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-<h1> The Pokemons </h1>
-<p class='show'>
-       This pokemons name is <strong><%= pokemon.name%> </strong><br>
-
-       <img src="<%= pokemon.img %>">
-</p>
+<h1> New Pokemon </h1>
+       <form  action='/pokemon' method='POST'> 
+       Name: <input type='text' name='name'><br>
+      Img: <input type='text' name='img'><br>
+           Submit<input type='submit' >
+        </form>
+    
 </body>
 </html>
