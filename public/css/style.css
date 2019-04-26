@@ -18,6 +18,12 @@ p {
     font-size: 30px;
     margin-top:-30px; 
 }
+button {
+    color: blue;
+    font-family: 'Dokdo', cursive;
+    width: 60px;
+    font-size:15px;
+}
 
 
 
